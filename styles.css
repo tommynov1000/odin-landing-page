@@ -1,10 +1,26 @@
-* {
-    font-family: Roboto, Arial, Helvetica, sans-serif;
+/* Hero info section */
+.hero-main-text {
+    font-size: 48px;
 }
 
+.dark-background .hero-main .hero-info {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.dark-background .hero-main {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    padding-top: 100px;
+    align-items: center;
+}
+
+/* Hero nav section */
 .dark-background .hero-logo {
     font-size: 24px;
-    color: #F9FAF8;
 }
 
 .dark-background .hero-secondary {
@@ -27,12 +43,24 @@ nav {
     justify-content: space-between;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    flex: 1;
+}
+
+/* Set every div to */
 div {
     flex: 1
 }
 
+/* font on all text */
+* {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
 
 /* background colors */
 .dark-background {
     background-color: #1f2937;
+    color: #F9FAF8;
   }
